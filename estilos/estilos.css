@@ -1,0 +1,790 @@
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url(../fonts/FontsFree-Net-SFProText-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'SF Pro Text';
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #1e89ff;
+}
+
+nav {
+  padding: 12px 20px 12px 20px;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+}
+
+nav ul a {
+  color: gray;
+  text-decoration: none;
+  margin: -7px 90px -2px 75px;
+  font-size: 0.8rem;
+}
+
+.icon {
+  width: 26px;
+  height: 18px;
+  background-size: 135% 161%;
+  display: inline-block;
+  background-position: 1px;
+  background-repeat: no-repeat;
+}
+
+.manzanita {
+  background-image: url(../assets/apple.png);
+}
+
+.textoinicio {
+  font-size: 0.8rem;
+  text-align: center;
+  margin:0;
+}
+
+/* index */
+.mainfoto {
+  text-align: center;
+  background-image: url(../assets/iphone15.jpg);
+  min-height: 500px;
+  background-position: center center;
+  background-size: 1000px auto;
+  background-repeat: no-repeat;
+  background-color: black;
+  padding-top: 30px;
+}
+
+.t1main,
+.t2main {
+  color: gray;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mainwhite {
+  text-align: center;
+  background-image: url(../assets/iphone15rosa.jpg);
+  min-height: 540px;
+  background-position: center center;
+  background-size: 1500px auto;
+  background-repeat: no-repeat;
+  background-color: white;
+  padding-top: 40px;
+}
+
+.mainw {
+  font-size: medium;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 14px;
+  column-gap: 14px;
+  text-align: center;
+}
+
+.grid>div {
+  height: 500px;
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+}
+
+.t1 {
+  font-size: 2rem;
+  color: white;
+}
+
+.t2 {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.black {
+  color: black;
+}
+
+/* tienda */
+
+.bodyt {
+  background-color: black;
+}
+
+.mainfoto2 {
+  text-align: center;
+  background-image: url(../assets/accesorios2.png);
+  min-height: 500px;
+  background-size: 1500px auto;
+  background-repeat: no-repeat;
+  padding-top: 230px;
+}
+
+.t-main,
+.t-mains, .t-a {
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 800px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 14px;
+  column-gap: 14px;
+  margin: 40px 50px 63px 70px;
+  text-align: center;
+}
+
+.grid2>div {
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+}
+
+.h1tienda {
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 14px;
+  column-gap: 14px;
+  margin: 40px 75px 63px 75px;
+  text-align: center;
+  grid-template-areas: 
+  "img1 img1 img2 img2"
+  "img3 img3 img4 img4"
+  "img5 img5 img5 img5";
+}
+
+.grid4>div {
+  height: 470px;
+  background-position: center center;
+  background-size: cover;
+  padding: 15px;
+}
+
+.section-1 {
+  grid-area: img1;
+  background-image: url(../assets/home-kit.jpeg);
+}
+
+.section-2 {
+  grid-area: img2;
+  background-image: url(../assets/watch-card.jpeg);
+}
+
+.section-3 {
+  grid-area: img3;
+  background-image: url(../assets/apps.jpeg);
+}
+
+.section-4 {
+  grid-area: img4;
+  background-image: url(../assets/store-card.jpeg);
+}
+
+.section-5 {
+  grid-area: img5;
+  background-image: url(../assets/bolsa.jpeg);
+}
+
+.t-blackM{
+  color: black;
+  margin-top: 160px;
+  margin-bottom: 5px;
+  margin-right: 600px;
+}
+.t-blackN{
+  color: black;
+  margin-bottom: 5px;
+  margin-right: 600px;
+}
+
+.t-N{
+  color: #1e89ff;
+  margin-bottom: 5px;
+  margin-right: 600px;
+}
+
+/* nosotros */
+
+.mainwhite3 {
+  text-align: center;
+  background-image: url(../assets/reloj.jpg);
+  min-height: 530px;
+  background-position: bottom;
+  background-size: 1110px;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.t-main1{
+  color: black;
+  margin-left: 800px;
+  padding-top: 75px;
+  font-size: xx-large;
+}
+
+.t-mains2, .t-a3 {
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 800px;
+}
+
+.grid5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 14px;
+  column-gap: 14px;
+  text-align: center;
+  padding: 20px;
+}
+
+.grid5>div {
+  height: 500px;
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+}
+
+.videonosotros {
+  border-radius: 25px;
+  width: 90%;
+  margin: 40px 50px 63px 70px;
+  top: 40%;
+}
+
+/* contacto */
+
+.mainfoto4 {
+  text-align: center;
+  background-image: url(../assets/ipadsl.jpg);
+  min-height: 500px;
+  background-position: inherit;
+  background-size: 1500px auto;
+  background-repeat: no-repeat;
+  background-color: black;
+  padding-top: 200px;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 14px;
+  column-gap: 14px;
+  margin: 30px 20px 20px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.grid3>div {
+  height: 420px;
+  background-size: cover;
+}
+
+.contacto-h{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 43px;
+  margin-bottom: 30px;
+}
+
+.contacto-2{
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background-color:rgb(255, 255, 255);
+  padding: 30px;
+}
+
+.mainfoto5{
+  text-align: center;
+  background-image: url(../assets/accesorios5.jpg);
+  min-height: 400px;
+  background-size: 1500px auto;
+  background-repeat: no-repeat;
+  margin-top: 90px;
+}
+
+.t-md{
+  padding-top: 20px;
+  font-size: xx-large;
+}
+
+/* carrito */
+
+.mainwhite2 {
+  text-align: center;
+  background-image: url(../assets/iphone10.jpg);
+  min-height: 500px;
+  background-position: center center;
+  background-size: 1500px auto;
+  background-repeat: no-repeat;
+  background-color: white;
+  margin-bottom: 100px;
+}
+
+.mainwhite-s, .mainwhite-c{
+  padding-left: 1100px;
+}
+
+.mainwhite-s{
+  padding-top: 350px;
+}
+
+.carrito {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project {
+  display: flex;
+}
+
+.shop {
+  flex: 75%;
+}
+
+.caja {
+  display: flex;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background: #ffffffef;
+  transition: all .6s ease;
+}
+
+.caja img {
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.caja:hover {
+  border: none;
+  transform: scale(1.01);
+}
+
+.contenido {
+  padding: 20px;
+  width: 150%;
+  position: relative;
+}
+
+.btn-area {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 25px;
+  background-color: #3a71a9;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-area:hover {
+  background-color: #76bfb6;
+  font-weight: 600;
+}
+
+.btn-area i {
+  margin-right: 5px;
+}
+
+.barra {
+  flex: 25%;
+  margin-left: 20px;
+  padding: 20px;
+  height: 400px;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+.barra hr {
+  margin-bottom: 25px;
+}
+
+.barra p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.barra a {
+  background-color: #76bfb6;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 900;
+}
+
+.barra a:hover {
+  background-color: #3972a7;
+}
+
+.contenido {
+  padding: 20px;
+  width: 150%;
+  position: relative;
+}
+
+.contenido h3 {
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+
+.contenido h4 {
+  margin-bottom: 50px;
+  font-size: larger;
+}
+
+.btn-area {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 25px;
+  background-color: #3a71a9;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-area:hover {
+  background-color: #6093da;
+  font-weight: 600;
+}
+
+.btn-area i {
+  margin-right: 5px;
+}
+
+.mainfoto3 {
+  margin-top: 20px;
+  text-align: center;
+  background-image: url(../assets/iphoneimg.jpg);
+  min-height: 410px;
+  background-size: 1450px auto;
+  background-repeat: repeat;
+}
+
+.t-mainc{
+  color: black;
+  font-size: x-large;
+  padding-top: 285px;
+  padding-right: 190px;
+}
+
+
+.img1 {
+  background-image: url(../assets/MacBookAir.jpg);
+}
+
+.img2 {
+  background-image: url(../assets/AirPods.jpg);
+}
+
+.img3 {
+  background-image: url(../assets/MacBookPro.jpg);
+}
+
+.img4 {
+  background-image: url(../assets/Ipad.jpg);
+}
+
+.img5 {
+  background-image: url(../assets/fotosapple.jpg);
+  border-radius: 20px;
+}
+
+.img6 {
+  background-image: url(../assets/personalize.jpg);
+  border-radius: 20px;
+}
+
+.img7 {
+  background-image: url(../assets/watch1.jpg);
+  border-radius: 20px;
+
+}
+
+.img8 {
+  background-image: url(../assets/watch2.jpg);
+  border-radius: 20px;
+}
+
+.img9 {
+  background-image: url(../assets/airpods2.jpg);
+}
+
+.img10 {
+  background-image: url(../assets/ipadacc.jpeg);
+}
+
+.img11 {
+  background-image: url(../assets/dispositivos.jpeg);
+}
+
+.img12 {
+  background-image: url(../assets/accesoriosiphone.jpeg);
+}
+
+
+
+
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.894);
+  padding: 80px 0;
+  color: gray;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  width: 25%;
+  padding: -10 15px;
+}
+
+.footer-links h4 {
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.footer-links ul li {
+  font-size: 14px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+
+@media (min-width:320px) and (max-width:991px) {
+
+  .mainfoto{
+    background-size: cover;
+    background-size: 391px auto;
+    min-height: 351px;
+  }
+
+  .mainwhite{
+          display: none !important;
+       }
+
+  .grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+  }
+  
+  .grid>div {
+    height: 450px;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+  }
+  
+}
+
+@media (min-width:320px) and (max-width:991px){
+
+  .mainfoto2 {
+    text-align: center;
+    background-image: url(../assets/accesorios2.png);
+    min-height: 150px;
+    background-size: 700px auto;
+    padding-top: 230px;
+  }
+
+  .t-main,
+.t-mains, .t-a {
+  display: none !important;
+}
+
+
+  .grid2{
+    display: none !important;
+  }
+
+  .grid4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    grid-template-areas: 
+    "img1"
+    "img2"
+    "img3"
+    "img4";
+  }
+  
+  .section-5{
+    display: none !important;
+  }
+
+
+}
+
+
+@media (min-width:320px) and (max-width:991px){
+
+  .mainwhite2 {
+    text-align: center;
+    background-image: url(../assets/iphone10.jpg);
+    min-height: 500px;
+    background-position: center center;
+    background-size: 900px auto;
+    background-repeat: no-repeat;
+    background-color: white;
+    margin-bottom: 100px;
+  }
+  
+  .mainwhite-s, .mainwhite-c{
+    display: none !important;
+  }
+
+
+  .carrito {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .project {
+    display: grid;
+    margin: 50px;
+  }
+  
+  .shop {
+    flex: 75%;
+  }
+  
+  .caja {
+    display: flex;
+    width: 95%;
+    height: 160px;
+    overflow: hidden;
+    margin-bottom: 17px;
+    background: #ffffffef;
+    transition: all .6s ease;
+  }
+  
+  .caja img {
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .caja:hover {
+    border: none;
+    transform: scale(1.01);
+  }
+  
+  .contenido {
+    padding: 20px;
+    width: 150%;
+    position: relative;
+  }
+  
+  .btn-area {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    padding: 5px 20px;
+    background-color: #3a71a9;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn-area:hover {
+    background-color: #76bfb6;
+    font-weight: 600;
+  }
+  
+  .btn-area i {
+    margin-right: 5px;
+  }
+  .barra {
+    display: none !important;
+  }
+  
+  .contenido {
+    padding: 20px;
+    width: 150%;
+    position: relative;
+  }
+  
+  .contenido h3 {
+    margin-bottom: 10px;
+    font-size: large;
+  }
+  
+  .contenido h4 {
+    margin-bottom: 50px;
+    font-size: medium;
+  }
+
+  .mainfoto3 {
+    margin-top: 20px;
+    text-align: center;
+    background-image: url(../assets/iphoneimg.jpg);
+    min-height: 340px;
+    background-size: 900px auto;
+    background-repeat: repeat;
+  }
+  
+  .t-mainc{
+    display: none !important;
+  }
+
+}
+
+@media (min-width:320px) and (max-width:991px){
+  .grid3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media (min-width:320px) and (max-width:991px){
+  .grid5 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .t-main1,.t-mains2, .t-a3{
+    display: none !important;
+  }
+  .videonosotros{
+    margin: 0;
+    width: 100%;
+  }
+}
