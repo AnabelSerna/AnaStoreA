@@ -10,14 +10,12 @@
   list-style: none;
 }
 
+
 a {
   text-decoration: none;
   color: #1e89ff;
 }
 
-nav {
-  padding: 12px 20px 12px 20px;
-}
 
 nav ul li {
   list-style: none;
@@ -45,14 +43,15 @@ nav ul a {
   background-image: url(../assets/apple.png);
 }
 
-.textoinicio {
+
+.texto-inicio {
   font-size: 0.8rem;
   text-align: center;
-  margin:0;
+  margin: 0;
 }
 
 /* index */
-.mainfoto {
+.main-foto {
   text-align: center;
   background-image: url(../assets/iphone15.jpg);
   min-height: 500px;
@@ -63,14 +62,14 @@ nav ul a {
   padding-top: 30px;
 }
 
-.t1main,
-.t2main {
+.t1-main,
+.t2-main {
   color: gray;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-.mainwhite {
+.main-white {
   text-align: center;
   background-image: url(../assets/iphone15rosa.jpg);
   min-height: 540px;
@@ -81,7 +80,7 @@ nav ul a {
   padding-top: 40px;
 }
 
-.mainw {
+.main-w {
   font-size: medium;
 }
 
@@ -121,7 +120,7 @@ nav ul a {
   background-color: black;
 }
 
-.mainfoto2 {
+.main-foto-2 {
   text-align: center;
   background-image: url(../assets/accesorios2.png);
   min-height: 500px;
@@ -131,14 +130,15 @@ nav ul a {
 }
 
 .t-main,
-.t-mains, .t-a {
+.t-mains,
+.t-a {
   color: black;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 800px;
 }
 
-.grid2 {
+.grid-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 14px;
@@ -147,34 +147,34 @@ nav ul a {
   text-align: center;
 }
 
-.grid2>div {
+.grid-2>div {
   height: 400px;
   background-position: center center;
   background-size: cover;
   padding: 50px;
 }
 
-.h1tienda {
+.h1-tienda {
   color: white;
   text-align: center;
   margin-bottom: 15px;
   margin-top: 15px;
 }
 
-.grid4 {
+.grid-4 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 14px;
   column-gap: 14px;
   margin: 40px 75px 63px 75px;
   text-align: center;
-  grid-template-areas: 
-  "img1 img1 img2 img2"
-  "img3 img3 img4 img4"
-  "img5 img5 img5 img5";
+  grid-template-areas:
+    "img1 img1 img2 img2"
+    "img3 img3 img4 img4"
+    "img5 img5 img5 img5";
 }
 
-.grid4>div {
+.grid-4>div {
   height: 470px;
   background-position: center center;
   background-size: cover;
@@ -206,19 +206,20 @@ nav ul a {
   background-image: url(../assets/bolsa.jpeg);
 }
 
-.t-blackM{
+.t-blackM {
   color: black;
   margin-top: 160px;
   margin-bottom: 5px;
   margin-right: 600px;
 }
-.t-blackN{
+
+.t-blackN {
   color: black;
   margin-bottom: 5px;
   margin-right: 600px;
 }
 
-.t-N{
+.t-N {
   color: #1e89ff;
   margin-bottom: 5px;
   margin-right: 600px;
@@ -226,7 +227,7 @@ nav ul a {
 
 /* nosotros */
 
-.mainwhite3 {
+.main-white-3 {
   text-align: center;
   background-image: url(../assets/reloj.jpg);
   min-height: 530px;
@@ -236,21 +237,22 @@ nav ul a {
   background-color: white;
 }
 
-.t-main1{
+.t-main-1 {
   color: black;
   margin-left: 800px;
   padding-top: 75px;
   font-size: xx-large;
 }
 
-.t-mains2, .t-a3 {
+.t-mains-2,
+.t-a3 {
   color: black;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 800px;
 }
 
-.grid5 {
+.grid-5 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 14px;
@@ -259,14 +261,14 @@ nav ul a {
   padding: 20px;
 }
 
-.grid5>div {
+.grid-5>div {
   height: 500px;
   background-position: center center;
   background-size: cover;
   padding: 50px;
 }
 
-.videonosotros {
+.video-nosotros {
   border-radius: 25px;
   width: 90%;
   margin: 40px 50px 63px 70px;
@@ -275,7 +277,7 @@ nav ul a {
 
 /* contacto */
 
-.mainfoto4 {
+.main-foto-4 {
   text-align: center;
   background-image: url(../assets/ipadsl.jpg);
   min-height: 500px;
@@ -286,7 +288,7 @@ nav ul a {
   padding-top: 200px;
 }
 
-.grid3 {
+.grid-3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 14px;
@@ -296,27 +298,27 @@ nav ul a {
   position: relative;
 }
 
-.grid3>div {
+.grid-3>div {
   height: 420px;
   background-size: cover;
 }
 
-.contacto-h{
+.contacto-h {
   text-align: center;
   color: rgb(255, 255, 255);
   margin-top: 43px;
   margin-bottom: 30px;
 }
 
-.contacto-2{
+.contacto-2 {
   margin-left: 50px;
   margin-right: 50px;
   border-radius: 10px;
-  background-color:rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
   padding: 30px;
 }
 
-.mainfoto5{
+.main-foto-5 {
   text-align: center;
   background-image: url(../assets/accesorios5.jpg);
   min-height: 400px;
@@ -325,14 +327,14 @@ nav ul a {
   margin-top: 90px;
 }
 
-.t-md{
+.t-md {
   padding-top: 20px;
   font-size: xx-large;
 }
 
 /* carrito */
 
-.mainwhite2 {
+.main-white-2 {
   text-align: center;
   background-image: url(../assets/iphone10.jpg);
   min-height: 500px;
@@ -343,11 +345,12 @@ nav ul a {
   margin-bottom: 100px;
 }
 
-.mainwhite-s, .mainwhite-c{
+.main-white-s,
+.main-white-c {
   padding-left: 1100px;
 }
 
-.mainwhite-s{
+.main-white-s {
   padding-top: 350px;
 }
 
@@ -482,7 +485,7 @@ nav ul a {
   margin-right: 5px;
 }
 
-.mainfoto3 {
+.main-foto-3 {
   margin-top: 20px;
   text-align: center;
   background-image: url(../assets/iphoneimg.jpg);
@@ -491,7 +494,7 @@ nav ul a {
   background-repeat: repeat;
 }
 
-.t-mainc{
+.t-mainc {
   color: black;
   font-size: x-large;
   padding-top: 285px;
@@ -586,17 +589,18 @@ nav ul a {
   display: block;
 }
 
+/* index */
 @media (min-width:320px) and (max-width:991px) {
 
-  .mainfoto{
+  .main-foto {
     background-size: cover;
     background-size: 391px auto;
     min-height: 351px;
   }
 
-  .mainwhite{
-          display: none !important;
-       }
+  .main-white {
+    display: none !important;
+  }
 
   .grid {
     text-align: center;
@@ -604,19 +608,37 @@ nav ul a {
     grid-template-columns: 1fr;
     margin-bottom: 20px;
   }
-  
-  .grid>div {
-    height: 450px;
-    background-position: center center;
-    background-size: cover;
-    padding: 50px;
-  }
-  
 }
 
-@media (min-width:320px) and (max-width:991px){
+@media (min-width:675px) and (max-width:991px) {
+  .t1 black {
+    font-size: 1.5rem;
+    color: white;
+    margin: -30px;
+  }
 
-  .mainfoto2 {
+  .grid>div {
+    padding: 50px;
+  }
+
+  .main-foto {
+    background-size: 600px auto;
+  }
+}
+
+
+@media (min-width:600px) and (max-width:991px) {
+  .grid>div {
+    height: 700px;
+    padding: 40px;
+  }
+}
+
+/* tienda */
+
+@media (min-width:320px) and (max-width:991px) {
+
+  .main-foto-2 {
     text-align: center;
     background-image: url(../assets/accesorios2.png);
     min-height: 150px;
@@ -625,37 +647,70 @@ nav ul a {
   }
 
   .t-main,
-.t-mains, .t-a {
-  display: none !important;
-}
-
-
-  .grid2{
+  .t-mains,
+  .t-a {
     display: none !important;
   }
 
-  .grid4 {
+  .grid-2 {
+    display: none !important;
+  }
+
+  .grid-4 {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
-    grid-template-areas: 
-    "img1"
-    "img2"
-    "img3"
-    "img4";
+    grid-template-areas:
+      "img1"
+      "img2"
+      "img3"
+      "img4";
   }
-  
-  .section-5{
+
+  .section-5 {
     display: none !important;
   }
 
-
 }
 
+@media (min-width:992px) and (max-width:1151px) {
 
-@media (min-width:320px) and (max-width:991px){
+  .t-main,
+  .t-mains,
+  .t-a {
+    display: none !important;
+  }
+}
 
-  .mainwhite2 {
+@media (min-width:695px) and (max-width:991px) {
+  .main-foto-2 {
+    text-align: center;
+    background-image: url(../assets/accesorios2.png);
+    min-height: 150px;
+    background-size: 991px auto;
+    padding-top: 315px;
+    background-position: left;
+  }
+
+  .grid-4>div {
+    height: 645px;
+    background-position: center center;
+    background-size: cover;
+    padding: 40px;
+  }
+}
+
+@media (min-width:992px) and (max-width:1255px) {
+  nav ul li a {
+    display: none !important;
+  }
+}
+
+/* carrito */
+
+@media (min-width:320px) and (max-width:991px) {
+
+  .main-white-2 {
     text-align: center;
     background-image: url(../assets/iphone10.jpg);
     min-height: 500px;
@@ -665,26 +720,26 @@ nav ul a {
     background-color: white;
     margin-bottom: 100px;
   }
-  
-  .mainwhite-s, .mainwhite-c{
+
+  .main-white-s,
+  .main-white-c {
     display: none !important;
   }
-
 
   .carrito {
     max-width: 1000px;
     margin: 0 auto;
   }
-  
+
   .project {
     display: grid;
     margin: 50px;
   }
-  
+
   .shop {
     flex: 75%;
   }
-  
+
   .caja {
     display: flex;
     width: 95%;
@@ -694,24 +749,24 @@ nav ul a {
     background: #ffffffef;
     transition: all .6s ease;
   }
-  
+
   .caja img {
     width: 300px;
     height: 180px;
     object-fit: cover;
   }
-  
+
   .caja:hover {
     border: none;
     transform: scale(1.01);
   }
-  
+
   .contenido {
     padding: 20px;
     width: 150%;
     position: relative;
   }
-  
+
   .btn-area {
     position: absolute;
     bottom: 15px;
@@ -722,36 +777,37 @@ nav ul a {
     cursor: pointer;
     border-radius: 5px;
   }
-  
+
   .btn-area:hover {
     background-color: #76bfb6;
     font-weight: 600;
   }
-  
+
   .btn-area i {
     margin-right: 5px;
   }
+
   .barra {
     display: none !important;
   }
-  
+
   .contenido {
     padding: 20px;
     width: 150%;
     position: relative;
   }
-  
+
   .contenido h3 {
     margin-bottom: 10px;
     font-size: large;
   }
-  
+
   .contenido h4 {
     margin-bottom: 50px;
     font-size: medium;
   }
 
-  .mainfoto3 {
+  .main-foto-3 {
     margin-top: 20px;
     text-align: center;
     background-image: url(../assets/iphoneimg.jpg);
@@ -759,31 +815,67 @@ nav ul a {
     background-size: 900px auto;
     background-repeat: repeat;
   }
-  
-  .t-mainc{
+
+  .t-main-c {
     display: none !important;
   }
 
 }
 
-@media (min-width:320px) and (max-width:991px){
-  .grid3 {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+@media (min-width:992px) and (max-width:1290px) {
 
-}
-
-@media (min-width:320px) and (max-width:991px){
-  .grid5 {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .t-main1,.t-mains2, .t-a3{
+  .main-white-s,
+  .main-white-c {
     display: none !important;
   }
-  .videonosotros{
+}
+
+
+/* contacto */
+
+@media (min-width:320px) and (max-width:991px) {
+  .grid-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width:320px) and (max-width:480px) {
+  .grid-3>div {
+    height: 269px;
+  }
+}
+
+@media (min-width:481px) and (max-width:640px) {
+  .grid-3>div {
+    height: 360px;
+  }
+}
+
+/* nosotros*/
+@media (min-width:320px) and (max-width:991px) {
+  .grid-5 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .t-main-1,
+  .t-mains-2,
+  .t-a3 {
+    display: none !important;
+  }
+
+  .video-nosotros {
     margin: 0;
     width: 100%;
+  }
+}
+
+@media (min-width:992px) and (max-width:1156px) {
+
+  .t-main-1,
+  .t-mains-2,
+  .t-a3 {
+    display: none !important;
   }
 }
