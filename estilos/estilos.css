@@ -50,7 +50,6 @@ nav ul a {
   margin: 0;
 }
 
-/* index */
 .main-foto {
   text-align: center;
   background-image: url(../assets/iphone15.jpg);
@@ -114,7 +113,6 @@ nav ul a {
   color: black;
 }
 
-/* tienda */
 
 .bodyt {
   background-color: black;
@@ -225,7 +223,6 @@ nav ul a {
   margin-right: 600px;
 }
 
-/* nosotros */
 
 .main-white-3 {
   text-align: center;
@@ -275,7 +272,6 @@ nav ul a {
   top: 40%;
 }
 
-/* contacto */
 
 .main-foto-4 {
   text-align: center;
@@ -332,7 +328,6 @@ nav ul a {
   font-size: xx-large;
 }
 
-/* carrito */
 
 .main-white-2 {
   text-align: center;
@@ -533,9 +528,6 @@ nav ul a {
 }
 
 
-
-
-
 .footer {
   background-color: rgba(0, 0, 0, 0.894);
   padding: 80px 0;
@@ -566,7 +558,6 @@ nav ul a {
   display: block;
 }
 
-/* index */
 @media (min-width:320px) and (max-width:991px) {
 
   .main-foto {
@@ -610,10 +601,6 @@ nav ul a {
     padding: 40px;
   }
 }
-
-/* tienda */
-
-
 
 
 @media (min-width:320px) and (max-width:991px) {
@@ -701,7 +688,6 @@ nav ul a {
   }
 }
 
-/* carrito */
 
 @media (min-width:320px) and (max-width:991px) {
 
@@ -721,19 +707,16 @@ nav ul a {
     display: none !important;
   }
 
-
   .project {
     display: grid;
     margin: 50px;
   }
-
 
   .caja {
     width: 95%;
     height: 160px;
     margin-bottom: 17px;
   }
-
 
   .btn-area {
     bottom: 15px;
@@ -779,8 +762,6 @@ nav ul a {
 }
 
 
-/* contacto */
-
 @media (min-width:320px) and (max-width:991px) {
   .grid-3 {
     display: grid;
@@ -800,7 +781,6 @@ nav ul a {
   }
 }
 
-/* nosotros*/
 @media (min-width:320px) and (max-width:991px) {
   .grid-5 {
     display: grid;
