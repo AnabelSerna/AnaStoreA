@@ -614,7 +614,7 @@ nav ul a {
   }
   .project {
     display: grid;
-    margin: 0px;
+    margin: 0;
   }
   .caja {
     width: 95%;
