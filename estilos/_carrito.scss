@@ -1,0 +1,464 @@
+.main-white-2 {
+  text-align: center;
+  background-image: url(../assets/iphone10.jpg);
+  min-height: 500px;
+  background-position: center center;
+  background-size: 1500px auto;
+  background-repeat: no-repeat;
+  background-color: white;
+  margin-bottom: 100px;
+
+  .main-white-s,
+  .main-white-c {
+    padding-left: 1100px;
+  }
+
+  .main-white-s {
+    padding-top: 350px;
+  }
+}
+
+
+
+.carrito {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  .project {
+    display: flex;
+  }
+
+  .shop {
+    flex: 75%;
+  }
+
+  .caja {
+    display: flex;
+    width: calc($medida*2);
+    height: 180px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background: #ffffffef;
+    transition: all .6s ease;
+
+    img {
+      width: 300px;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    :hover {
+      border: none;
+      transform: scale(1.01);
+    }
+
+    .contenido {
+      padding: 20px;
+      width: 150%;
+      position: relative;
+    }
+
+    .btn-area {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 25px;
+      background-color: #3a71a9;
+      color: #ffffff;
+      cursor: pointer;
+      border-radius: 5px;
+
+      :hover {
+        background-color: #76bfb6;
+        font-weight: 600;
+      }
+
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+
+
+.barra {
+  flex: 25%;
+  margin-left: 20px;
+  padding: 20px;
+  height: 400px;
+  border-radius: 5px;
+  background: #ffffff;
+
+  hr {
+    margin-bottom: 25px;
+  }
+
+  p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
+  a {
+    background-color: #76bfb6;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 900;
+  }
+
+  :hover {
+    background-color: #3972a7;
+  }
+
+}
+
+
+.contenido h3 {
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+
+.contenido h4 {
+  margin-bottom: 50px;
+  font-size: larger;
+}
+
+
+
+.main-foto-3 {
+  margin-top: 20px;
+  text-align: center;
+  background-image: url(../assets/iphoneimg.jpg);
+  min-height: 410px;
+  background-size: 1450px auto;
+  background-repeat: repeat;
+
+  .t-mainc {
+    color: $color3;
+    font-size: x-large;
+    padding-top: 285px;
+    padding-right: 190px;
+  }
+}
+
+
+
+@media (min-width:320px) and (max-width:991px) {
+
+  .main-white-2 {
+    text-align: center;
+    background-image: url(../assets/iphone10.jpg);
+    min-height: 500px;
+    background-position: center center;
+    background-size: 900px auto;
+    background-repeat: no-repeat;
+    background-color: $color2;
+    margin-bottom: 100px;
+  }
+
+  .main-white-s,
+  .main-white-c {
+    display: none !important;
+  }
+
+  .project {
+    display: grid;
+    margin: 50px;
+  }
+
+  .caja {
+    width: 95%;
+    height: 160px;
+    margin-bottom: 17px;
+  }
+
+  .btn-area {
+    bottom: 15px;
+    right: 20px;
+    padding: 5px 20px;
+  }
+
+  .barra {
+    display: none !important;
+  }
+
+  .contenido h3 {
+    margin-bottom: 10px;
+    font-size: large;
+  }
+
+  .contenido h4 {
+    margin-bottom: 50px;
+    font-size: medium;
+  }
+
+  .main-foto-3 {
+    margin-top: 20px;
+    text-align: center;
+    background-image: url(../assets/iphoneimg.jpg);
+    min-height: 340px;
+    background-size: 900px auto;
+    background-repeat: repeat;
+  }
+
+  .t-main-c {
+    display: none !important;
+  }
+
+}
+
+@media (min-width:992px) and (max-width:1290px) {
+
+  .main-white-s,
+  .main-white-c {
+    display: none !important;
+  }
+
+  .main-white-2 {
+    text-align: center;
+    background-image: url(../assets/iphone10.jpg);
+    min-height: 500px;
+    background-position: center center;
+    background-size: 1500px auto;
+    background-repeat: no-repeat;
+    background-color: white;
+    margin-bottom: 100px;
+
+    .main-white-s,
+    .main-white-c {
+      padding-left: 1100px;
+    }
+
+    .main-white-s {
+      padding-top: 350px;
+    }
+  }
+
+
+
+  .carrito {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    .project {
+      display: flex;
+    }
+
+    .shop {
+      flex: 75%;
+    }
+
+    .caja {
+      display: flex;
+      width: calc($medida*2);
+      height: 180px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      background: #ffffffef;
+      transition: all .6s ease;
+
+      img {
+        width: 300px;
+        height: 180px;
+        object-fit: cover;
+      }
+
+      :hover {
+        border: none;
+        transform: scale(1.01);
+      }
+
+      .contenido {
+        padding: 20px;
+        width: 150%;
+        position: relative;
+      }
+
+      .btn-area {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 25px;
+        background-color: #3a71a9;
+        color: #ffffff;
+        cursor: pointer;
+        border-radius: 5px;
+
+        :hover {
+          background-color: #76bfb6;
+          font-weight: 600;
+        }
+
+        i {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+
+
+  .barra {
+    flex: 25%;
+    margin-left: 20px;
+    padding: 20px;
+    height: 400px;
+    border-radius: 5px;
+    background: #ffffff;
+
+    hr {
+      margin-bottom: 25px;
+    }
+
+    p {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      font-size: 20px;
+    }
+
+    a {
+      background-color: #76bfb6;
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      height: 40px;
+      line-height: 40px;
+      font-weight: 900;
+    }
+
+    :hover {
+      background-color: #3972a7;
+    }
+
+  }
+
+
+  .contenido h3 {
+    margin-bottom: 20px;
+    font-size: x-large;
+  }
+
+  .contenido h4 {
+    margin-bottom: 50px;
+    font-size: larger;
+  }
+
+
+
+  .main-foto-3 {
+    margin-top: 20px;
+    text-align: center;
+    background-image: url(../assets/iphoneimg.jpg);
+    min-height: 410px;
+    background-size: 1450px auto;
+    background-repeat: repeat;
+
+    .t-mainc {
+      color: $color3;
+      font-size: x-large;
+      padding-top: 285px;
+      padding-right: 190px;
+    }
+  }
+
+
+
+  @media (min-width:320px) and (max-width:991px) {
+
+    .main-white-2 {
+      text-align: center;
+      background-image: url(../assets/iphone10.jpg);
+      min-height: 500px;
+      background-position: center center;
+      background-size: 900px auto;
+      background-repeat: no-repeat;
+      background-color: $color2;
+      margin-bottom: 100px;
+    }
+
+    .main-white-s,
+    .main-white-c {
+      display: none !important;
+    }
+
+    .project {
+      display: grid;
+      margin: 50px;
+    }
+
+    .caja {
+      width: 95%;
+      height: 160px;
+      margin-bottom: 17px;
+    }
+
+    .btn-area {
+      bottom: 15px;
+      right: 20px;
+      padding: 5px 20px;
+    }
+
+    .barra {
+      display: none !important;
+    }
+
+    .contenido h3 {
+      margin-bottom: 10px;
+      font-size: large;
+    }
+
+    .contenido h4 {
+      margin-bottom: 50px;
+      font-size: medium;
+    }
+
+    .main-foto-3 {
+      margin-top: 20px;
+      text-align: center;
+      background-image: url(../assets/iphoneimg.jpg);
+      min-height: 340px;
+      background-size: 900px auto;
+      background-repeat: repeat;
+    }
+
+    .t-main-c {
+      display: none !important;
+    }
+
+  }
+
+  @media (min-width:992px) and (max-width:1290px) {
+
+    .main-white-s,
+    .main-white-c {
+      display: none !important;
+    }
+  }
+
+
+
+  @media (min-width:320px) and (max-width:465px) {
+    .shop {
+      width: 250px;
+    }
+
+  }
+
+}
+
+
+
+@media (min-width:320px) and (max-width:465px) {
+  .shop {
+    width: 250px;
+  }
+
+}

@@ -1,0 +1,116 @@
+.texto-inicio {
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0;
+}
+
+.main-foto {
+  text-align: center;
+  background-image: url(../assets/iphone15.jpg);
+  min-height: 500px;
+  background-position: center center;
+  background-size: 1000px auto;
+  background-repeat: no-repeat;
+  background-color: black;
+  padding-top: 30px;
+
+  .t1-main,
+  .t2-main {
+    color: $color4;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+}
+
+
+.main-white {
+  text-align: center;
+  background-image: url(../assets/iphone15rosa.jpg);
+  min-height: 540px;
+  background-position: center center;
+  background-size: 1500px auto;
+  background-repeat: no-repeat;
+  background-color: $color2;
+  padding-top: 40px;
+
+  .main-w {
+    font-size: medium;
+  }
+
+}
+
+
+
+.grid {
+  @extend .grid;
+
+  div {
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+  }
+}
+
+
+
+.t1 {
+  font-size: 2rem;
+  color: $color2;
+}
+
+.t2 {
+  font-size: 1rem;
+  color: $color2;
+  margin-bottom: 30px;
+}
+
+.black {
+  color: $color3;
+}
+
+
+@media (min-width:320px) and (max-width:991px) {
+
+  .main-foto {
+    background-size: cover;
+    background-size: 391px auto;
+    min-height: 351px;
+  }
+
+  .main-white {
+    display: none !important;
+  }
+
+  .grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width:675px) and (max-width:991px) {
+  .t1 black {
+    font-size: 1.5rem;
+    color: $color2;
+    margin: -30px;
+  }
+
+  .grid>div {
+    padding: 50px;
+  }
+
+  .main-foto {
+    background-size: 600px auto;
+  }
+}
+
+
+@media (min-width:600px) and (max-width:991px) {
+  .grid>div {
+    height: 700px;
+    padding: 40px;
+  }
+}

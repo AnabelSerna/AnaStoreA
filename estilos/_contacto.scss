@@ -1,0 +1,72 @@
+.main-foto-4 {
+  text-align: center;
+  background-image: url(../assets/ipadsl.jpg);
+  min-height: 500px;
+  background-position: inherit;
+  background-size: 1500px auto;
+  background-repeat: no-repeat;
+  background-color: $color3;
+  padding-top: 200px;
+}
+
+.grid-3 {
+  @extend .grid;
+  position: relative;
+  margin: 30px 20px 20px 20px;
+
+  div {
+    height: 420px;
+    background-size: cover;
+  }
+}
+
+
+
+.contacto-h {
+  text-align: center;
+  color: $color1;
+  margin-top: 43px;
+  margin-bottom: 30px;
+}
+
+.contacto-2 {
+  @include sizes;
+  border-radius: 10px;
+  background-color: $color1;
+  padding: 30px;
+}
+
+.main-foto-5 {
+  text-align: center;
+  background-image: url(../assets/accesorios5.jpg);
+  min-height: 400px;
+  background-size: 1500px auto;
+  background-repeat: no-repeat;
+  margin-top: 90px;
+
+  .t-md {
+    padding-top: 20px;
+    font-size: xx-large;
+  }
+
+}
+
+
+@media (min-width:320px) and (max-width:991px) {
+  .grid-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width:320px) and (max-width:480px) {
+  .grid-3>div {
+    height: 269px;
+  }
+}
+
+@media (min-width:481px) and (max-width:640px) {
+  .grid-3>div {
+    height: 360px;
+  }
+}

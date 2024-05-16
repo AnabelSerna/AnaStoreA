@@ -1,0 +1,75 @@
+.main-white-3 {
+  text-align: center;
+  background-image: url(../assets/reloj.jpg);
+  min-height: 530px;
+  background-position: bottom;
+  background-size: 1110px;
+  background-repeat: no-repeat;
+  background-color: $color2;
+
+  .t-main-1 {
+    color: $color3;
+    margin-left: 800px;
+    padding-top: 75px;
+    font-size: xx-large;
+  }
+
+  .t-mains-2,
+  .t-a3 {
+    color: $color3;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 800px;
+  }
+
+}
+
+
+
+.grid-5 {
+  @extend .grid;
+  padding: 20px;
+
+  div {
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+  }
+}
+
+
+
+.video-nosotros {
+  border-radius: 25px;
+  width: 90%;
+  margin: 40px 50px 63px 70px;
+  top: 40%;
+}
+
+@media (min-width:320px) and (max-width:991px) {
+  .grid-5 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .t-main-1,
+  .t-mains-2,
+  .t-a3 {
+    display: none !important;
+  }
+
+  .video-nosotros {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width:992px) and (max-width:1156px) {
+
+  .t-main-1,
+  .t-mains-2,
+  .t-a3 {
+    display: none !important;
+  }
+}
