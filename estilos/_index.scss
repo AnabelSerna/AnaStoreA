@@ -23,7 +23,6 @@
 
 }
 
-
 .main-white {
   text-align: center;
   background-image: url(../assets/iphone15rosa.jpg);
@@ -40,8 +39,6 @@
 
 }
 
-
-
 .grid {
   @extend .grid;
 
@@ -52,8 +49,6 @@
     padding: 50px;
   }
 }
-
-
 
 .t1 {
   font-size: 2rem;
@@ -71,7 +66,7 @@
 }
 
 
-@media (min-width:320px) and (max-width:991px) {
+@media (min-width:320px) and (max-width:599px) {
 
   .main-foto {
     background-size: cover;
@@ -89,28 +84,35 @@
     grid-template-columns: 1fr;
     margin-bottom: 20px;
   }
+
+  .t1-main,
+  .t2-main {
+    display: none !important;
+  }
 }
 
-@media (min-width:675px) and (max-width:991px) {
-  .t1 black {
+@media (min-width:600px) and (max-width:991px) {
+
+  .main-foto {
+    background-size: cover;
+    background-size: 391px auto;
+    min-height: 351px;
+  }
+
+  a .t1 black {
     font-size: 1.5rem;
     color: $color2;
     margin: -30px;
   }
 
-  .grid>div {
-    padding: 50px;
-  }
-
   .main-foto {
     background-size: 600px auto;
   }
-}
 
-
-@media (min-width:600px) and (max-width:991px) {
-  .grid>div {
-    height: 700px;
-    padding: 40px;
+  .grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr !important;
+    margin-bottom: 20px;
   }
 }

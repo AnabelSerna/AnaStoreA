@@ -66,7 +66,7 @@
   color: black;
 }
 
-@media (min-width: 320px) and (max-width: 991px) {
+@media (min-width: 320px) and (max-width: 599px) {
   .main-foto {
     background-size: cover;
     background-size: 391px auto;
@@ -81,24 +81,30 @@
     grid-template-columns: 1fr;
     margin-bottom: 20px;
   }
+  .t1-main,
+  .t2-main {
+    display: none !important;
+  }
 }
-@media (min-width: 675px) and (max-width: 991px) {
-  .t1 black {
+@media (min-width: 600px) and (max-width: 991px) {
+  .main-foto {
+    background-size: cover;
+    background-size: 391px auto;
+    min-height: 351px;
+  }
+  a .t1 black {
     font-size: 1.5rem;
     color: white;
     margin: -30px;
   }
-  .grid > div, .grid-3 > div, .grid-5 > div {
-    padding: 50px;
-  }
   .main-foto {
     background-size: 600px auto;
   }
-}
-@media (min-width: 600px) and (max-width: 991px) {
-  .grid > div, .grid-3 > div, .grid-5 > div {
-    height: 700px;
-    padding: 40px;
+  .grid, .grid-3, .grid-5 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr !important;
+    margin-bottom: 20px;
   }
 }
 .bodyt {
@@ -138,7 +144,7 @@
   padding: 50px;
 }
 
-.h1-tienda {
+.h2-tienda {
   color: white;
   text-align: center;
   margin-bottom: 15px;
@@ -162,13 +168,27 @@
   padding: 15px;
 }
 
+@media (min-width: 320px) and (max-width: 500px) {
+  .main-foto-2 {
+    background-size: 550px auto;
+  }
+  .grid-4 {
+    margin: 25px 25px 63px 25px;
+  }
+  .grid-4 > div {
+    height: 361px;
+    background-position: center center;
+    background-size: cover;
+    padding: 15px;
+  }
+}
 @media (min-width: 320px) and (max-width: 991px) {
   .main-foto-2 {
     text-align: center;
     background-image: url(../assets/accesorios2.png);
-    min-height: 150px;
-    background-size: 700px auto;
-    padding-top: 230px;
+    min-height: 340px;
+    background-size: 960px auto;
+    padding-top: 280px;
   }
   .t-main,
   .t-mains,
@@ -188,46 +208,31 @@
     display: none !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1151px) {
+@media (min-width: 992px) and (max-width: 1255px) {
   .t-main,
   .t-mains,
   .t-a {
     display: none !important;
   }
+  nav ul li a {
+    display: none !important;
+  }
 }
-@media (min-width: 695px) and (max-width: 991px) {
+@media (min-width: 501px) and (max-width: 930px) {
   .main-foto-2 {
     text-align: center;
-    background-image: url(../assets/accesorios2.png);
     min-height: 150px;
     background-size: 991px auto;
     padding-top: 315px;
     background-position: left;
   }
-  .grid-4 > div {
-    height: 645px;
-    background-position: center center;
-    background-size: cover;
-    padding: 40px;
-  }
-}
-@media (min-width: 992px) and (max-width: 1255px) {
-  nav ul li a {
-    display: none !important;
-  }
-}
-@media (min-width: 320px) and (max-width: 500px) {
-  .main-foto-2 {
-    background-size: 550px auto;
-  }
   .grid-4 {
     margin: 25px 25px 63px 25px;
   }
-  .grid-4 > div {
-    height: 361px;
-    background-position: center center;
-    background-size: cover;
-    padding: 15px;
+}
+@media (min-width: 320px) and (max-width: 620px) {
+  .main-foto-2 {
+    display: none !important;
   }
 }
 .main-white-3 {
@@ -354,7 +359,7 @@
   cursor: pointer;
   border-radius: 5px;
 }
-.carrito .caja .btn-area :hover {
+.carrito .caja .btn-area:hover {
   background-color: #76bfb6;
   font-weight: 600;
 }
